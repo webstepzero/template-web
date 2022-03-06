@@ -1,15 +1,22 @@
 @charset "utf-8";
 
-@import "./base/_typography.scss";
-@import "./base/_reset.scss";
+/* abstract */
+@import "./abstract/function";
+@import "./abstract/mixins";
+@import "./abstract/variable";
 
-body {
-  // 여기다가 하면됨
-  // border: 10px solid red;
-  // h1 {
-  //   color: orange;
-  // }
-  // p {
-  //   background: green;
-  // }
-}
+/* base */
+@import "./base/typography";
+@import "./base/reset";
+
+/* components */
+@import "./components/button";
+@import "./components/icon";
+@import "./components/inputs";
+
+/* custom */
+@import "./custom/common";
+@import "./custom/theme";
+
+/* layout */
+@import "./layout/main";
