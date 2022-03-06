@@ -25,6 +25,7 @@ template파일입니다.
         "savePath": "~/../css/"
     }
 ],
+"liveSassCompile.settings.generateMap":false, // .map 제거
 ```
 
 ## 폰트
