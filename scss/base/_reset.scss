@@ -27,12 +27,8 @@ html {
 }
 html,
 body {
-  // font-size: 16px;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-}
-html {
-  font-size: 62.5%;
 }
 body {
   scroll-behavior: smooth;
@@ -58,7 +54,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* a:focus{outline:thin dotted; outline-offset:-1px;} */
 
 /* 목록 및 인용 */
 ol,
@@ -127,24 +122,7 @@ input[type="number"][readonly] {
 input[type="password"] {
   font-family: pass;
 }
-// input::placeholder, textarea::placeholder{
-//     color:#aaa;
-// }
-// input:-ms-input-placeholder, textarea:-ms-input-placeholder{
-//     color:#aaa;
-// }
 
-select {
-  padding-left: 10px;
-  background: #fff url("/resources/images/icons/ico_selectbox.svg") no-repeat;
-  background-position: bottom 50% right 10px;
-  background-size: 9px;
-}
-select:disabled {
-  background: #eee url("/resources/images/icons/ico_selectbox.svg") no-repeat;
-  background-position: bottom 50% right 10px;
-  color: #888;
-}
 textarea {
   resize: none;
   box-shadow: none;
@@ -152,64 +130,11 @@ textarea {
 
 body,
 html {
-  // -ms-overflow-style: none;
   overflow: auto;
-
-  // &::-webkit-scrollbar {
-  //   width: 4px; /* 세로축 스크롤바 길이 */
-  //   height: 8px; /* 가로축 스크롤바 길이 */
-  // }
-  // &::-webkit-scrollbar-thumb {
-  //   border-radius: 5px;
-  //   background-color: black;
-  // }
-  // &::-webkit-scrollbar-track {
-  //   background-color: red;
-  // }
 }
 
 /*form*/
 /* reset */
-input[type="text"] {
-  padding: 0 10px;
-  width: 100%;
-  font-size: 12px;
-  line-height: normal;
-  caret-color: #fff;
-  color: #fff;
-  height: 53px;
-  border-top-width: initial;
-  border-bottom-width: initial;
-  border-right-width: initial;
-  border-left-width: initial;
-  box-sizing: border-box;
-  border-top-color: initial;
-  border-bottom-color: initial;
-  border-right-color: initial;
-  border-left-color: initial;
-  text-decoration: none;
-  border-style: none;
-  border-image: initial;
-  outline: none;
-  font-family: "Noto Sans KR", "Open Sans";
-  font-weight: 500;
-  background: transparent;
-  border-bottom: 1px solid #fff;
-}
-
-textarea {
-  width: calc(100% - 26px);
-  height: 144px;
-  padding: 13px 13px;
-  font-size: 15px;
-  color: #fff;
-  border: 1px solid #fff;
-  background: transparent;
-  letter-spacing: -1px;
-  text-decoration: none;
-  resize: none;
-  line-height: 1.2;
-}
 
 /* croos-bowsing */
 ::-webkit-input-placeholder {

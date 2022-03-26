@@ -1,1 +1,36 @@
 /* _inputs */
+input[type="text"] {
+  padding: 0 10px;
+  width: 100%;
+  font-size: torem(14);
+  line-height: normal;
+  caret-color: #ddd;
+  height: 40px;
+  border-top-width: initial;
+  border-bottom-width: initial;
+  border-right-width: initial;
+  border-left-width: initial;
+  box-sizing: border-box;
+  border-top-color: initial;
+  border-bottom-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  text-decoration: none;
+  border-style: none;
+  border-image: initial;
+  font-family: "Noto Sans KR", "Open Sans";
+  font-weight: 500;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+textarea {
+  min-height: 150px;
+  padding: 10px;
+  font-size: torem(14);
+  border: 1px solid #ddd;
+  background: #fff;
+  text-decoration: none;
+  resize: none;
+  line-height: 1.2;
+}
